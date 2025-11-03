@@ -1,0 +1,29 @@
+# FastAPI Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+pymysql==1.1.0
+redis==5.0.1
+
+# Security & Authentication
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+pypinyin==0.49.0
+faker==20.1.0
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Message Queue (Optional)
+pika==1.3.2
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Logging & Monitoring (Optional)
+python-json-logger==2.0.7
